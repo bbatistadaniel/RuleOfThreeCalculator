@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Set the character set to UTF-8 -->
+        <meta charset="utf-8">
+        <!-- Set the title of the HTML page -->
+        <title>Rule of Three Calculator</title>
+        <!-- Link to an external stylesheet for styling -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Main container for the content -->
+        <div id="main">
+            <!-- Three input elements for numerical values -->
+            <input type="number" id="i1" class="inp" placeholder="0">
+            <input type="number" id="i2" class="inp" placeholder="0">
+            <input type="number" id="i3" class="inp" placeholder="0">
+            <!-- Button to trigger the copy function -->
+            <button id="i4" class="inp" onclick="copy()">X</button>
+            <!-- Two div elements for displaying results or other content -->
+            <div id="d1" class="blank"></div>
+            <div id="d2" class="blank"></div>
+            <!-- Button to trigger the calculate function -->
+            <button id="b1" onclick="calculate()">Calculate</button>
+        </div>
+
+        <!-- Link to the GitHub profile with an icon and text -->
+        <a href="https://github.com/bbatistadaniel" id="credits" target="_blank">
+            <div id="creditsdiv">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" id="github_icon">
+                <p id="credits_p">github.com/bbatistadaniel</p>
+            </div>
+        </a>
+
+        <!-- Inline styling to reset padding and margin for all elements -->
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+
+        <!-- Link to an external JavaScript file for scripting -->
+        <script src="script.js"></script>
+    </body>
+</html>
