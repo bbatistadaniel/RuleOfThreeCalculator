@@ -49,4 +49,4 @@ This project is open-source and is available under the [MIT License](LICENSE). F
 
 ## Testing
 
-To experience this project, you can visit the following link: [Rule of Three Calculator](https://bbatistadaniel.github.io/Rule-of-Three-Calculator/)
+To experience this project, you can visit the following link: [Rule of Three Calculator](https://bbatistadaniel.github.io/RuleOfThreeCalculator/)
